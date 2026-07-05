@@ -27,11 +27,6 @@ on:
         required: false
         type: boolean
 
-      ytvid:
-        description: "Integrate YTVideoErrorAlert"
-        default: true
-        required: false
-        type: boolean
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
