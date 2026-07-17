@@ -127,7 +127,7 @@ jobs:
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/YouPiP.git
     
       - name: Clone YTUHD
-        run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTUHD.git
+        run: git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YTUHD.git
            
       - name: Clone Return-YouTube-Dislikes
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/Return-YouTube-Dislikes.git
